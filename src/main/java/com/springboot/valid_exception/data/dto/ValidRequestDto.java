@@ -9,7 +9,7 @@ import javax.validation.constraints.*;
 @AllArgsConstructor
 @ToString
 @Builder
-public class validRequestDto {
+public class ValidRequestDto {
 
     /*유효성 검사는 각 계층으로 데이터가 넘어오는 시점에 해당 데이터에 대한 검사를 실시한다.
     * 스프링 부트 프로젝트에서는 계층간 데이터 전송에 Dto 객체를 활용하기에, Dto 객체의
